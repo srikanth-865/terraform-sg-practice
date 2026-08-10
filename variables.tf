@@ -5,6 +5,6 @@ variable "project"{
 variable "environment"{
     type = string
 }
-variable "Sg_names"{
+variable "Sg_name"{
     type = list
 }

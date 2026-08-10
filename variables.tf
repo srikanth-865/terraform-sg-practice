@@ -3,8 +3,8 @@ variable "project"{
 }
 
 variable "environment"{
-    type = String
+    type = string
 }
-variable "Sg-names"{
+variable "Sg_names"{
     type = list
 }

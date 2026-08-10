@@ -8,3 +8,6 @@ variable "environment"{
 variable "sg_name"{
     type = list
 }
+variable "vpc_id"{
+    type = string
+}

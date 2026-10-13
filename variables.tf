@@ -5,7 +5,7 @@ variable "project"{
 variable "environment"{
     type = string
 }
-variable "sg_name"{
+variable "sg_names"{
     type = string
 }
 variable "vpc_id"{

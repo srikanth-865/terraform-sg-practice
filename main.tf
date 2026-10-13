@@ -1,7 +1,7 @@
 resource "aws_security_group" "main" {
   name        = local.common_name 
-  description = "Allow trafffic from {var.sg_name} to ${var.project} and ${var.environment}"
-  vpc_id      = local.vpc_id
+  description = "Allow trafffic from {var.sg_names} to ${var.project} and ${var.environment}"
+  vpc_id      = local.vpc_id #takkig value from module inside local value
 
   egress {
     from_port   = 0
